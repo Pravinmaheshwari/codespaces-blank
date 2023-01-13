@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(69, 77, 77);
+}
+
+.showcase {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.showcase video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: auto;
+    left: auto;
+    object-fit: cover;
+}
+.title {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    font-size: 100px;
+    color: #fff;
+    mix-blend-mode: multiply;
+}
